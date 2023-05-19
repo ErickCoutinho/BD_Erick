@@ -1,0 +1,14 @@
+/* A */
+SELECT COUNT(country_name) AS total
+FROM country;
+
+/* B */
+SELECT *FROM ranking_system;
+
+/* C */
+SELECT COUNT(DISTINCT university_name) AS total_universidades
+FROM university;
+
+/* D */
+SELECT AVG(student_staff_ratio) AS media_student_staff_ratio
+FROM university_year;
